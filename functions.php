@@ -24,3 +24,16 @@ function average($numbers) {
     echo($overall / $count);
     echo("<br>");
 }
+
+function removeDups($numbers)
+{
+    $numbers = array_unique($numbers);
+    echo("[");
+
+    foreach($numbers as $number) {
+        print_r($number . ", ");
+    }
+    echo("]");
+
+    echo("<br>");
+}

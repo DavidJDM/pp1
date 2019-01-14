@@ -21,6 +21,10 @@ echo("<br>");
 
 echo(average($numbers));
 
+echo("<br>");
+
+echo(removeDups($numbers));
+
 ?>
 
 <!doctype html>
