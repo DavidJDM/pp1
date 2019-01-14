@@ -37,3 +37,10 @@ function removeDups($numbers)
 
     echo("<br>");
 }
+
+function distribution($numbers) {
+    sort($numbers);
+    $checkedArray = array_count_values($numbers);
+    print_r($checkedArray);
+    echo("<br>");
+}

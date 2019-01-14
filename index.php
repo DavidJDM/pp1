@@ -25,6 +25,10 @@ echo("<br>");
 
 echo(removeDups($numbers));
 
+echo("<br>");
+
+echo(distribution($numbers));
+
 ?>
 
 <!doctype html>
