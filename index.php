@@ -6,6 +6,17 @@
  * Time: 2:18 AM
  */
 
+
+$numbers = array(7, 9, 8, 9, 8, 8, 6);
+
+printArr($numbers);
+
+function printArr($numbers) {
+    for ($x = 0; $x < count($numbers); $x++) {
+        echo($numbers[$x]);
+        echo "<br>";
+    }
+}
 ?>
 
 <!doctype html>
