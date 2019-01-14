@@ -6,17 +6,17 @@
  * Time: 2:18 AM
  */
 
+echo("<h1>Pair Program 1</h1>");
+include 'functions.php';
 
 $numbers = array(7, 9, 8, 9, 8, 8, 6);
 
-printArr($numbers);
+echo(printArr($numbers));
 
-function printArr($numbers) {
-    for ($x = 0; $x < count($numbers); $x++) {
-        echo($numbers[$x]);
-        echo "<br>";
-    }
-}
+echo("<br>");
+
+echo(largest($numbers));
+
 ?>
 
 <!doctype html>
@@ -29,6 +29,6 @@ function printArr($numbers) {
     <title>Pair Program 1</title>
 </head>
 <body>
-    <h1>Pair Program 1</h1>
+
 </body>
 </html>
