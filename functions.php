@@ -17,3 +17,10 @@ function largest($numbers) {
     echo(max($numbers));
     echo("<br>");
 }
+
+function average($numbers) {
+    $count = count($numbers);
+    $overall = array_sum($numbers);
+    echo($overall / $count);
+    echo("<br>");
+}

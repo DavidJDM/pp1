@@ -17,6 +17,10 @@ echo("<br>");
 
 echo(largest($numbers));
 
+echo("<br>");
+
+echo(average($numbers));
+
 ?>
 
 <!doctype html>
